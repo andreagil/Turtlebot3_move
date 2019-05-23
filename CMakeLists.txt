@@ -41,8 +41,7 @@ catkin_package(
 # Install
 ################################################################################
 catkin_install_python(PROGRAMS
-  src/avoid_obstacles.py
-  src/state_map.py
+  src/wall_follow.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

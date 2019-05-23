@@ -2,6 +2,6 @@
   <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
   <param name="model" value="$(arg model)"/>
 
-  <node pkg="turtlebot3_move" name="avoid_obstacles" type="avoid_obstacles.py"  respawn="true" output="screen" launch-prefix="xterm -e"/>
+  <node pkg="turtlebot3_move" name="wall_follow" type="wall_follow.py"  respawn="true" output="screen" launch-prefix="xterm -e"/>
 
 </launch>
